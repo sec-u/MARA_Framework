@@ -3,4 +3,13 @@
 
 ![] (https://cloud.githubusercontent.com/assets/7021125/16489073/68e8faec-3edc-11e6-89f1-c403523e1338.png)
 
-More information about the framework and the installation guide is on the [wiki] (https://github.com/xtiankisutsa/MARA_Framework/wiki)
+##Features supported
+* Reverse engineer apk files to smali, java jar files, java source code and dalvik bytecode  (jadx format)
+* Reverse engineer dex, jar and class files into java source code and dalvik bytecode (jadx format)
+* Statically Analyze java source code and dalvik bytecode
+* Scan for apk vulnerabilities via [androbugs](https://github.com/AndroBugs/AndroBugs_Framework)
+* Scan ssl domains found in the app via the standalone SSL scanner that makes use of [pyssltest](https://github.com/moheshmohan/pyssltest) and [testssl](https://github.com/drwetter/testssl.sh) 
+
+Additional information about the framework and the installation guide is on the [wiki] (https://github.com/xtiankisutsa/MARA_Framework/wiki)
+
+
