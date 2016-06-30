@@ -3,4 +3,4 @@
 
 ![] (https://cloud.githubusercontent.com/assets/7021125/16489073/68e8faec-3edc-11e6-89f1-c403523e1338.png)
 
-More information about the framework is on the [wiki] (https://github.com/xtiankisutsa/MARA_Framework/wiki)
+More information about the framework and the installation guide is on the [wiki] (https://github.com/xtiankisutsa/MARA_Framework/wiki)
