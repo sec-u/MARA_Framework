@@ -3,7 +3,6 @@
 bold=`tput bold`
 normal=`tput sgr0`
 red='\e[0;31m'
-#green='\e[0;32m'
 yellow='\e[1;33m'
 blue='\e[1;34m'
 light_green='\e[1;32m'

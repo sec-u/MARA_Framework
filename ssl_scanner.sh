@@ -2,7 +2,6 @@
 bold=`tput bold`
 normal=`tput sgr0`
 red='\e[0;31m'
-#green='\e[0;32m'
 yellow='\e[1;33m'
 blue='\e[1;34m'
 light_green='\e[1;32m'
@@ -47,7 +46,7 @@ no_color='\e[0m'
 	echo ""
 
 	#testssl 
-	echo "\n===================\nTestssl Log:\n===================\n"
+	echo -e "\n===================\nTestssl Log:\n===================\n"
 	echo `date` >> ../data/domain_scans/$dump/logs/testssl.log 
 	echo -e "   ${no_color}[-] ${brown}Stage 2 - Scanning ${blue}$domain_ ${brown}${no_color}"
 	cd testssl.sh/ 

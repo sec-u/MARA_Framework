@@ -2,7 +2,6 @@
 bold=`tput bold`
 normal=`tput sgr0`
 red='\e[0;31m'
-#green='\e[0;32m'
 yellow='\e[1;33m'
 blue='\e[1;34m'
 light_green='\e[1;32m'
@@ -16,7 +15,7 @@ no_color='\e[0m'
 	#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	#SSL Implementation (pyssltest)
 	#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-	echo "\n===================\nPyssltest Log:\n===================\n" >> data/$file_/analysis/static/ssl_scan/logs/pyssltest.log
+	echo -e "\n===================\nPyssltest Log:\n===================\n" >> data/$file_/analysis/static/ssl_scan/logs/pyssltest.log
 	echo `date` >> data/$file_/analysis/static/ssl_scan/logs/pyssltest.log
 	echo -e "   ${no_color}[-] ${brown}Scanning ${blue}$domain ${brown}${no_color}" >> data/$file_/analysis/static/ssl_scan/logs/pyssltest.log 
 	cd tools/pyssltest/ 
